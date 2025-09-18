@@ -1,10 +1,10 @@
 const express = require('express');
 const serverless = require('serverless-http');
 
-const app = express
+const app = express()
 const port = 3000
 
-app.length('/api', (req, res) => {
+app.get('/api', (req, res) => {
     res.json({message: 'Hello from the API!'});
 });
 
