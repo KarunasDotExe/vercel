@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "express": "^5.1.0",
+    "serverless-http": "^4.0.0",
+    "vercel": "^48.0.3"
+  }
+}
